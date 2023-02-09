@@ -1,37 +1,29 @@
 import Carousel from 'react-bootstrap/Carousel';
 import Image from 'react-bootstrap/Image'
 
+import '../App.css';
+
+
 function CarouselHeader() {
   return (
-    <Carousel variant="dark">
+    <Carousel variant="dark" className="carousel-header">
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="src/img/sample-1.jpeg"
-          alt="First slide"
-        />
+        <Image src="https://github.com/catydiaz4863/my-site/blob/main/my-app/src/img/sample-1.jpeg?raw=true"/>
+
         <Carousel.Caption>
           <h5>First slide label</h5>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=eee"
-          alt="Second slide"
-        />
+        <Image src="https://github.com/catydiaz4863/my-site/blob/main/my-app/src/img/sample-2.jpeg?raw=true"/>
         <Carousel.Caption>
           <h5>Second slide label</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=e5e5e5"
-          alt="Third slide"
-        />
+        <Image src="https://github.com/catydiaz4863/my-site/blob/main/my-app/src/img/sample-3.jpeg?raw=true"/>
         <Carousel.Caption>
           <h5>Third slide label</h5>
           <p>

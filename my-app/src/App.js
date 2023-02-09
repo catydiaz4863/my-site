@@ -1,11 +1,10 @@
 import './App.css';
 
-import NavBar from './components/NavBar';
-// Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
-// Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
+
 import CarouselHeader from './components/Carousel';
+import NavBar from './components/NavBar';
 
 function App() {
   return (

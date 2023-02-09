@@ -22,6 +22,12 @@
   justify-content: center;
 }
 
+.carousel-header {
+  align-items: center;
+  justify-content: center;
+  width: 700;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
